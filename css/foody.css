@@ -38,3 +38,43 @@
     padding: 10px 20px;
     color: rgb(255, 255, 255);
 }
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.text-content{
+    width: 100px;
+}
+.highlight{
+    color: chartreuse;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+.green{
+    background-color: chartreuse;
+    color: aliceblue;
+    transition: background 0.3s;
+}
+.white{
+    background-color: #f9f9f9;
+    color: black;
+    border: 1px solid black;
+    transition: background 0.3s;
+}
+.img-content img{
+    max-width: 400px;
+    border-radius: 10px;
+}
