@@ -131,27 +131,55 @@ body{
     font-size: 12px;
     margin-top: 20px;
 }
-.category-section{
-    margin-top: 40px;
-    text-align: center;
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
 }
-.category-section h2{
+.flower-category{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+.flower-category h2{
     font-size: 36px;
     margin-bottom: 20px;
     color: #e91e63;
+    font-weight: bold;
 }
 .categories{
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
-.categories a{
-    text-decoration: none;
-    color: #e91e63;
-    background-color: #fce4ec;
-    padding: 20px;
+.category-card{
+    background-color: #f0f0f0;
+    border: none;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    overflow: hidden;
+    width: 150px;
+    cursor: pointer;
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+}
+.category-card:hover{
+    transform: translatyeY(-3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.category-card img{
+    width: 100%;
+    height: 240px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.category-card span{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
 }
