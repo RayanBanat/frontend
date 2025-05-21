@@ -196,7 +196,7 @@ body{
     height: 400px;
     border-radius: 10px;
     object-fit: cover;
-    display: grid
+    display: grid;
     margin-bottom: 10px;
 }
 .card{
@@ -208,7 +208,7 @@ body{
     text-align: center;
     transition: transform 0.3s;
     gap: 20px;
-    display: block;
+    display: grid;
 }
 .hero-section{
     display: flex;
